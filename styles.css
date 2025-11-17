@@ -1,0 +1,16 @@
+body{
+background-color: beige;
+}
+
+.item img{
+width: 100px;
+height:100px;
+}
+
+.item{
+    display: inline-block;
+}
+
+h1{ text-align: center;
+
+}
