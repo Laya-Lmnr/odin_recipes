@@ -3,14 +3,19 @@ background-color: beige;
 }
 
 .item img{
-width: 100px;
-height:100px;
+width: 200px;
+height:200px;
 }
 
 .item{
     display: inline-block;
 }
 
+.item .card{
+    display: block;
+    background-color: #fff;
+    padding:8px;
+}
 h1{ text-align: center;
 
 }
