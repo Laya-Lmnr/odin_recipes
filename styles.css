@@ -38,12 +38,19 @@ a{
     width: 100%;
 }
 
-h1{
+.banner-heading h1{
     position:absolute;
-    bottom: 350px;
+    bottom: 200px;
     left: 150px;
     color: #fff;
     font-size: 120px;
     
 
+}
+
+/* recipes styling */
+
+.recipe-image{
+    display: block;
+    margin: 0 auto;
 }
