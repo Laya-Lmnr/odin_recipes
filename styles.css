@@ -50,7 +50,45 @@ a{
 
 /* recipes styling */
 
-.recipe-image{
-    display: block;
-    margin: 0 auto;
+.recipe-image img{
+display:block;
+width:90%;
+height: 900px;
+margin: 20px auto;
+border: 20px solid #fff;
+
 }
+
+.ingredients{
+    display:inline-block;
+    background-color: #8b6c5c;
+    color:#fff;
+    margin-left: 50px;
+    padding:20px;
+    box-sizing: border-box;
+    width:500px;
+    outline: dashed black;
+
+}
+
+h1, h2, h3, h4, h5, h6,
+p,
+li {
+    margin: 16px 60px;
+}
+
+.ingredients, .steps {
+    display:inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.steps{
+    box-sizing: border-box;
+    outline: 2px solid black;
+    margin-left: 20px;
+    color: white;
+    background-color: rgba(11, 102, 35, 70%);
+}
+
+
